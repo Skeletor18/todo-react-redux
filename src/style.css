@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.859);
+}
+form {
+  max-width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+form input {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 0;
+  background-color: rgba(7, 181, 7, 0.805);
+  color: aliceblue;
+  outline: none;
+}
+form button {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgba(7, 181, 7, 0.805);
+  color: aliceblue;
+  cursor: pointer;
+}
+main {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main div {
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+main span {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+main button {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+main div input[type="checkbox"] {
+  accent-color: #face8d;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
